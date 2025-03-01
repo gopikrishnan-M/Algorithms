@@ -5,7 +5,6 @@ public class BinaryCeil {
         int[]arr={0,1,2,3,4,5,6,7,7,7,7,8,8,9,9,9};
         int target=7;
         System.out.println(binaryCeil(arr,target));
-        System.out.println("we made it");
     }
 
     private static int binaryCeil(int[] arr, int target) {
