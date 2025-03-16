@@ -12,14 +12,14 @@ public class MatrixBSearch {
                 {5,22,324,626,527},
                 {12,23,34,445,856}
         };
-        int target=626;
+        int target=527;
         System.out.println(Arrays.toString(bSearch(matrix,target)));
     }
 
     private static int[] bSearch(int[][] matrix, int target) {
         int row=0;
         int col= matrix[row].length-1;
-        while(row<= matrix.length&&col>=0){
+        while(row< matrix.length&&col>=0){
             if(matrix[row][col]==target){
                 return new int[]{row,col};
             }

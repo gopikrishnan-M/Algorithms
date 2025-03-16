@@ -25,7 +25,7 @@ public class MatrixSortedBSearch {
                 {54,55,57,58,59}
         };
         int target=59;
-        //method1(matrix,target);
+        method1(matrix,target);
         //System.out.println(Arrays.toString(method2(matrix,target)));;
     }
 
