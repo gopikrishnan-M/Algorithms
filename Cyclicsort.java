@@ -2,7 +2,7 @@ package Searching_Sorting;
 import java.util.*;
 public class Cyclicsort {
     public static void main(String[] args) {
-        int[] arr={4,3,2,7,8,2,3,1};
+        int[] arr={3,2,1,1,3,3,2,2,1};
         int i=0;
         while (i<arr.length){
             int correct=arr[i]-1;

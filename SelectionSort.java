@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] arr={2,3,5,1,0,78,65,4,49,99,2};
+        int[] arr={2,3,5,1,78,65,4,49,99,2};
         for(int i=0;i< arr.length;i++){
             int last= arr.length-1-i;
             int m=maxIndex(arr,last);

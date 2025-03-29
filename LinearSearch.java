@@ -3,7 +3,7 @@ package Searching_Sorting;
 public class LinearSearch {
     public static void main(String[] args) {
         int[]arr={3,6,3,6,8,9,7,5,44,66,88,54,4,56,7,5,4};
-        int target=6633;
+        int target=7;
         System.out.println(linearSearch(arr,target));
     }
 

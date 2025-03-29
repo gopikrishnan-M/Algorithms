@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         boolean flag=false;
-        int[]arr={10,7,5,9,7,3,2};
+        int[]arr={1,2,3,4,9,6,7};
         for (int i = 0; i <arr.length ; i++) {
             flag=false;
             for(int j=0;j<arr.length-1;j++){
