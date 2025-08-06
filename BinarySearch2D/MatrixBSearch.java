@@ -8,7 +8,7 @@ public class MatrixBSearch {
         //which literally mean every single element in a row+1 is greater than row similarly column
         int[][] matrix={
                 {2,3,4, 5, 6 },
-                {3,12,14,156,17},
+                {3,12,14,15,17},
                 {5,22,324,626,527},
                 {12,23,34,445,856}
         };

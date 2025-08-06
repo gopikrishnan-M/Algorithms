@@ -6,7 +6,7 @@ public class Cyclicsort {
         int i=0;
         while (i<arr.length){
             int correct=arr[i]-1;
-            if(arr[i]==arr[correct]){//tis will handle even duplicate values and sort it in a correct order
+            if(arr[i]==arr[correct]){//this will handle even duplicate values and sort it in a correct order
                 i++;
             }
             /*if(arr[i]==i+1){//this also does cyclic sort but fails with duplicate values

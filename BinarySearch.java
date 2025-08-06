@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[]arr={2,4,5,3,5,3,9,378,45,34,23,12};
+        int[]arr={2,4,3,5,3,9,378,45,34,23,12};
         Arrays.sort(arr);
         int low=0;
         int high=arr.length-1;
-        int key=378;
+        int key=6;
         int indx=-1;
         while(low<=high){
             int mid=low+(high-low)/2;
